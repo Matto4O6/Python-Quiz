@@ -22,7 +22,7 @@ options = (("A. Archduke Franz Ferdinand ", "B. Grigori Rasputin ", "C. Kaiser W
            ("A. CodeIt ", "B. PyCharm ", "C. Prgrm "),
            ("A. 1996 ", "B. 1998 ", "C. 1999 "),
            ("A. Vincent Van Gogh", "B. Pablo Picasso ", "C. Georgia O'Keefe "),
-           ("A. 2", "B. 12", "C. 6"),
+           ("A. 2", "B. 10", "C. 6"),
            ("A. Audi", "B. BMW", "C. Chevrolet"),
            ("A. Forza Motorsport", "B. Fable", "C. Halo Combat Evolved"),
            ("A. 3", "B. 6", "C. 5"),
