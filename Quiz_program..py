@@ -22,7 +22,7 @@ options = (("A. Archduke Franz Ferdinand ", "B. Grigori Rasputin ", "C. Kaiser W
            ("A. CodeIt ", "B. PyCharm ", "C. Prgrm "),
            ("A. 1996 ", "B. 1998 ", "C. 1999 "),
            ("A. Vincent Van Gogh", "B. Pablo Picasso ", "C. Georgia O'Keefe "),
-           ("A. 2", "B. 10", "C. 6"),
+           ("A. 2", "B. 9", "C. 6"),
            ("A. Audi", "B. BMW", "C. Chevrolet"),
            ("A. Forza Motorsport", "B. Fable", "C. Halo Combat Evolved"),
            ("A. 3", "B. 6", "C. 5"),
@@ -60,7 +60,7 @@ for question in list_of_questions:
         if guess in answer_options:
             break
         else:
-            print("Incorrect input, try again with A, B or C")
+            print("Incorrect input, try again with A, B or C!")
 
     guesses.append(guess)
     if guess == answers[question_num]:
@@ -68,7 +68,7 @@ for question in list_of_questions:
         print("Correct answer!")
     else:
         print("Incorrect answer!")
-        print(f"{answers[question_num]} is the correct answer.  ")
+        print(f"{answers[question_num]} is the correct answer!  ")
     # this variable will change the options for each question
     question_num += 1
 
@@ -94,7 +94,4 @@ print()
 
 score = (int(score / len(list_of_questions) * 100))
 # now to print the user's score, user % to get the score as a percentage
-print(f"Your score is {score}%, thanks for playing my quiz. ")
-
-
-
+print(f"Your score is {score}%, thanks for playing my quiz! ")
